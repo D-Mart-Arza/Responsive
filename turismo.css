@@ -1,0 +1,170 @@
+body{
+	background-color: #212020;
+}
+
+.principal{
+	width: 1000px;
+	margin: auto;
+}
+header{
+	font-family: helvetica, sans-serif;
+    color: white;
+    background-color: #F7640C;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    height: 60px; 
+    width: 977px;
+    margin: auto;
+    
+ }
+
+#treskandu img{
+	float: left;
+	width: 250px;
+	height: 200px;
+	margin: 3px 10px;
+}
+
+ div #treskandu{
+	clear: both;
+}
+
+#treskandu p{
+	color: white;
+	margin-left: 5px;
+	margin-top: 50px;
+}
+
+#laguna img{
+	float: left;
+	width: 250px;
+	height: 200px;
+	margin: 0 10px;
+	
+}
+
+div #laguna{
+	clear: both;
+}
+ #laguna p{
+ 	color: white;
+ 	margin-top: 150px;
+ 	margin-left: 10px; 
+ }
+
+ #monday img{
+ 	float: left;
+	width: 250px;
+	height: 200px;
+	margin: 0 10px;
+ }
+ div #monday{
+ 	clear: both;
+ }
+
+ #monday p{
+ 	color: white;
+ 	margin-top: 170px;
+ 	margin-left: 10px; 
+ }
+
+ #tren img{
+ 	float: left;
+	width: 250px;
+	height: 200px;
+	margin: 0 10px;
+ }
+ div #tren{
+ 	clear: both;
+ }
+
+ #tren p{
+ 	color: white;
+ 	margin-top: 154px;
+ 	margin-left: 10px; 
+ }
+ 
+ footer{
+    margin-top: 85px;
+    margin-left: 10px;
+    width: 977px;
+    height: 100px;
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+ }
+
+ @media (max-width: 1024px){
+ 	.principal{
+ 		width: 750px;
+ 		margin: auto;
+ 	}
+ 	header{
+ 		font-size: 18px;
+ 		width: 750px;
+ 		margin-left: 10px;
+ 	}
+ 	p{
+ 		width: 750px;
+ 	}
+ 	footer{
+ 		width: 750px;
+ 	}
+ }
+
+ @media (max-width: 768px){
+ 	.principal{
+ 		width: 450px;
+ 		margin-left: 1px;
+ 	}
+ 	header{
+ 		font-size: 12px;
+ 		width: 445px;
+    }
+
+     #treskandu img{
+       	width: 445px; 
+    }
+    #treskandu p{
+    	float: left;
+    	margin-top: 5px;
+    	width: 450px;
+    }
+    #laguna img{
+    	width: 445px;
+    }
+    #laguna p{
+    	float: left;
+    	margin-top: 5px;
+    	width: 450px;
+
+    }
+    #monday img{
+    	width: 445px;
+    }
+    #monday p{
+        float: left;
+    	margin-top: 5px;
+    	width: 450px;    	
+    }
+    #tren img{
+    	width: 445px;
+    }
+    #tren p{
+    	float: left;
+    	margin-top: 5px;
+    	width: 450px;
+    }
+    div footer{
+    	width: 445px;
+    	height: 50px;
+    	margin-top: 415px;
+    }
+    footer p{
+    	width: 50px;
+        font-size: 18px;
+        display: inline;
+    }
+}
